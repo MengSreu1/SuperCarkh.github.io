@@ -1,0 +1,183 @@
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #e74c3c;
+}
+.navbar li{
+    float: right;
+    padding: 1px;
+    margin: auto;
+    background-color: rgb(35, 94, 93);
+}
+footer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+{
+    text-decoration: none;
+}
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo{
+    font-size: 20px; 
+    font-weight: 600; 
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(24, 219, 219);
+}
+
+/* ✅ កែទំហំ top-image អោយស្តង់ដារ */
+.top-image {
+    width: 100%;
+    height: 45vh; /* 60% នៃកម្ពស់អេក្រង់ */
+    background-image: url(pic/car.png);
+    background-size: cover;       /* បង្ហាញពេញ */
+    background-repeat: no-repeat; /* មិនធ្វើចម្លង */
+    background-position: center;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 p {
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+p {
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+}
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.product:hover {
+    transform: translateY(-5px);
+}
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.product h3 {
+    margin: 10px 0;
+    color: #333;
+}
+.product p {
+    color: #777;
+    font-size: 16px;
+}
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+video {
+    max-width: 80%;
+    max-height: 60vh;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.spin-img {
+    width: 120px;
+    height: auto;
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+footer {
+  background: #000000;
+  color: #ddd;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid #e74c3c;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-column p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-column a {
+  display: block;
+  color: #bbb;
+  text-decoration: none;
+  margin: 6px 0;
+  transition: color 0.3s;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  color: #e74c3c;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}

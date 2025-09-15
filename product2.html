@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call, Message & Favorite Buttons</title>
+  
+  <style>l
+  
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f9;
+    }
+
+    .btn-container {
+      display: flex;
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    /* Call button */
+    .btn-call {
+      background-color: #28a745;
+    }
+    .btn-call:hover {
+      background-color: #218838;
+    }
+
+    /* Message button */
+    .btn-message {
+      background-color: #007bff;
+    }
+    .btn-message:hover {
+      background-color: #0069d9;
+    }
+
+    /* Favorite button */
+    .btn-favorite {
+      background-color: #e83e8c;
+    }
+    .btn-favorite:hover {
+      background-color: #c82368;
+    }
+
+    .btn i {
+      font-size: 18px;
+    }
+  .btn-container{
+      display: flex;
+      justify-content: center;
+  }
+  .navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+   }
+   .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+
+   }
+   .navbar a:hover{
+    background-color: #e74c3c;
+   }
+
+
+.navbar li{
+    float: center;
+
+    padding: 1px;
+    margin: auto;
+    background-color: rgb(35, 94, 93)
+
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+footer {
+  background: #000000;
+  color: #ddd;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid #e74c3c;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-column p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-column a {
+  display: block;
+  color: #bbb;
+  text-decoration: none;
+  margin: 6px 0;
+  transition: color 0.3s;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  color: #e74c3c;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+  </style>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  
+
+  <nav class="navbar">
+    <ul>
+         <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+ <img src="pic/km-40x40.png">
+  <center><img src="pic/ai.gif"width="400"; height="100";></center>
+    <center><img src="pic/941aa5e37a0728df223d81e101947ad4.jpg"width="500"; height="300";></center>
+  <center>    <img src="pic/cellcard.png"width="30"; height="30";><h3>សូមទំនាក់ទំនង 089704596</h3></center>  
+  <div class="btn-container">
+    <a href="tel:+089704596" class="btn btn-call">
+      <i class="fas fa-phone"></i> Call
+    </a>
+    <a href="mailto:sreusreu75@gmail.com" class="btn btn-message">
+      <i class="fas fa-envelpoe"></i> Message
+    </a>
+    <a href="#" class="btn btn-favorite">
+      <i class="fas fa-heart"></i> Favorite
+    </a>
+  </div>
+  <ul>
+    <li><h3>នេះ​ជា​ព័ត៌មាន​បន្ថែម​អំពី​រថយន្ត​នេះ</h3></li>
+  </ul>
+<cernter><p>ឡាន McLaren Senna គឺជារថយន្តប្រភេទ Hypercar ដ៏ខ្លាំង និងមានល្បឿនលឿនខ្លាំងបំផុតមួយ ដែលផលិតឡើងដោយក្រុមហ៊ុន McLaren Automotive នៅចក្រភពអង់គ្លេស។ ឡាននេះត្រូវបានគេដាក់ឈ្មោះថា “Senna” ដើម្បីគោរពដល់ Ayrton Senna — អតីតអ្នកបើកបររថយន្ត Formula 1 ដែលមានប្រជាប្រិយភាព និងជោគជ័យជាងគេម្នាក់ក្នុងប្រវត្តិសាស្ត្រ។
+
+McLaren Senna ត្រូវបានបង្កើតឡើងក្នុងគោលបំណងផ្ដល់សមត្ថភាពបើកបរដ៏អស្ចារ្យ និងលឿនខ្លាំងនៅលើទំរង់ផ្លូវប្រកួត។ ដោយប្រើម៉ាស៊ីន V8 Twin-Turbocharged 4.0 លីត្រ ដែលអាចបង្កើតកម្លាំងបានដល់ 800 ភ្លាំងសេះ ឬ 789 hp ឡាននេះអាចបង្កើនល្បឿនពី 0-100 គ.ម./ម៉. ក្នុងរយៈពេលត្រឹមតែ 2.8 វិនាទីប៉ុណ្ណោះ។ ល្បឿនខ្ពស់អាចទៅដល់ជាង 335 គ.ម./ម៉ោង — ប្រៀបបាននឹងរថយន្តប្រកួតជាក់ស្ដែង។
+
+ការរចនារបស់ McLaren Senna មានភាពគ្រប់គ្រងដោយវិទ្យាសាស្ត្រ aerodynamic ដែលមានសមត្ថភាពផ្ដល់សម្ពាធទៅលើកង់ដល់កម្រិតខ្ពស់ (downforce) សម្រាប់ការបើកបរដែលមានស្ថិរភាព។ spoiler ខាងក្រោយអាចបត់បាន និងសំរួលការបើកបរតាមលក្ខណៈផ្លូវ។ ផ្នែកខាងក្នុងនៃឡានប្រើសម្ភារៈ carbon fiber ដើម្បីបន្ថយទំងន់ និងបន្ថែមសមត្ថភាពល្បឿន។
+
+អ្វីដែលធ្វើឲ្យ McLaren Senna ផ្សេងពីឡានផ្សេងទៀតគឺជាប្រព័ន្ធបច្ចេកវិទ្យា និងការចាប់អារម្មណ៍ខាងរចនា។ ឡាននេះមានរូបរាងទាក់ទាញ និងសាមញ្ញគ្រប់ផ្នែក សុទ្ធតែមានគោលបំណងសម្រាប់ប្រសិទ្ធភាពខ្ពស់ក្នុងការបើកបរ។ រូបរថយន្តដែលបានផ្ញើមក បង្ហាញពី McLaren Senna ពណ៌ប្រាក់ភ្លឺផ្សំព្រមជាមួយពណ៌ខ្មៅ និងតុបតែងពណ៌ក្រហម ដែលបន្ថែមភាពទាក់ទាញនិងភាពខ្មៅងងឹតដ៏ទំនើប។
+
+ជាសរុប, McLaren Senna គឺជារថយន្តដែលមិនមែនសម្រាប់អ្នកស្រឡាញ់សម្រស់ផ្ទាល់ខ្លួនតែប៉ុណ្ណោះទេ ប៉ុន្តែសម្រាប់អ្នកដែលចង់ទទួលបានអារម្មណ៍បើកបរដូចជានៅលើល្បាតប្រកួតផ្ទាល់។ វាជាការរួមបញ្ចូលគ្នារវាងសិល្បៈនិងវិទ្យាសាស្ត្រ នៅក្នុងរូបរាងឡានមួយគ្រឿង។
+
+McLaren Senna — មិនមែនសម្រាប់មនុស្សធម្មតា។ វាគឺសម្រាប់អ្នកដែលចង់ចាប់យកអវកាសលើផ្លូវ។​</p></cernter>
+<footer>
+  <div class="footer-container">
+    
+    <div class="footer-column">
+      <h3><i class="fa-solid fa-car"></i> SuperCar.Kh</h3>
+      <p>បង្ហាញម៉ាស៊ីនយានយន្តប្រណិត និងទំនើបបំផុតសម្រាប់អ្នកចូលចិត្តរថយន្ត។</p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Menu</h3>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="Contect.html">Contact</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact Us</h3>
+      <a href="mailto:sreusreu75@gmail.com"><i class="fas fa-envelope"></i> sreusreu75@gmail.com</a>
+      <a href="tel:+85589704596"><i class="fas fa-phone"></i> +855 89704596</a>
+    </div>
+
+    <div class="footer-column">
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com/share/1AVWqnSvyU/"><i class="fab fa-facebook"></i> Facebook</a>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © 2025 SuperCar.Kh | Designed by <b>SREUXSREU</b></p>
+  </div>
+</footer>
+
+</body>
+</html>
